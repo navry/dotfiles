@@ -19,3 +19,13 @@ import `~/.iterm.json` profile
 
 ![iterm import](/img/iterm-import.png)
 
+
+## must have
+
+* migrate iStats
+
+![istats panel](/imp/istats-panel.png)
+
+* migrate gpg
+* migrate ssh keys
+* migrate and vpn access
