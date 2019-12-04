@@ -13,7 +13,7 @@ autoload -U edit-command-line # use editor for actual command
 autoload -Uz vcs_info # show versions of repositories
 
 kube_cluster_info() {
-    context_info=$(kubectl config get-contexts | grep '*' | awk '{print $3"/"$5}' | sed 's/kube//g' | sed 's/sklik-//g')
+    context_info=$(kubectl config get-contexts | grep '*' | awk '{print $3"/"$5}' | sed 's/^kube//g' | sed 's/\/sklik-/\//g')
     context_cluster=${context_info%/*}
     context_namespace=${context_info#*/}
     echo "$context_cluster/$context_namespace"
