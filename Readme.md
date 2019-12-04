@@ -16,3 +16,6 @@ cd ./.vim/pack/bundle/start/
 ## iterm
 
 import `~/.iterm.json` profile
+
+![iterm import](/img/iterm-import.png)
+
