@@ -24,7 +24,7 @@ import `~/.iterm.json` profile
 
 * migrate iStats
 
-![istats panel](/imp/istats-panel.png)
+![istats panel](/img/istats-panel.png)
 
 * migrate gpg
 * migrate ssh keys
