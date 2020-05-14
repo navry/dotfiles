@@ -1,0 +1,9 @@
+[user]
+	name = Michal Navratil
+	email = michal.navratil@firma.seznam.cz
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
